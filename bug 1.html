@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="点我" id="o"/>
+<script>
+    function M() {
+        alert('666')
+    }
+    var dw = document.getElementById("o")
+    var a = {
+        b: function (c, d, e) {
+            if (c.addEventListener) {
+                c.addEventListener(d, e, false)
+            }
+            else if (c.attachEvent) {
+                c.attachEvent('on' + d, e)
+            }
+            else {
+                c['on' + d] = e
+            }
+        }
+    }
+    a.b(dw, 'click', M)
+</script>
+</body>
+</html>

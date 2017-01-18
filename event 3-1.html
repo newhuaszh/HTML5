@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript" src="event.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+<div id="box">
+    <input type="button" value="按钮" id="btn"/>
+    <input type="button" value="按钮2" id="btn2"/>
+    <input type="button" value="按钮3" id="btn3"/>
+    <a href="event.html" id="go">跳转</a>
+
+</div>
+<!--<script type="text/javascript">
+    function showMes(event) {
+        var ele = event.target || event.srcElement;
+        alert(ele);
+        event.stopPropagation();
+    }
+
+    function showBox() {
+        alert('盒子');
+    }
+
+    function stopGoto(event) {
+        event.stopPropagation();
+        event.preventDefault();
+    }
+
+    var btn2 = document.getElementById('btn2');
+    var btn3 = document.getElementById('btn3');
+    var box = document.getElementById('box');
+    var go = document.getElementById('go');
+    btn2.onclick = function() {
+        alert('DOM 0级事件');
+    }
+    btn2.onclick = null;
+
+    eventUtil.addHandler(go, 'click', stopGoto);
+</script>-->
+</body>
+
+</html>
