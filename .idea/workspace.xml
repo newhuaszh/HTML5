@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="670548e9-0b8b-4bca-a6b8-8e8f359f8267" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq dom 2-2 节点创建与属性的处理.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq dom 3-1 内部插入append()与appendTo().html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq dom 3-2 外部插入after()和before().html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq dom 3-3 内部插入prepend()与prependTo().html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq dom 3-4 外部插入insertAfter()和insertBefore().html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq dom 4-1 节点删除之empty().html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq dom 4-2 节点删除之remove().html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq dom 4-4 节点删除之保留数据detach().html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq dom 4-5 节点删除之detach()和remove()区别.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq dom 5-1 拷贝clone().html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq dom 5-2 替换replaceWith()和replaceAll().html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jq 2-1 DOM创建节点及节点属性.html" afterPath="$PROJECT_DIR$/jq dom 2-1 创建节点及节点属性.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +25,51 @@
     <favorites_list name="HTML5" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="jq dom 4-4 节点删除之保留数据detach().html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jq dom 4-4 节点删除之保留数据detach().html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jq dom 4-5 节点删除之detach()和remove()区别.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jq dom 4-5 节点删除之detach()和remove()区别.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jq dom 5-1 拷贝clone().html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jq dom 5-1 拷贝clone().html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jq dom 5-2 替换replaceWith()和replaceAll().html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jq dom 5-2 替换replaceWith()和replaceAll().html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <marker date="1485081318266" expanded="true" signature="870:879" ph="..." />
+                <marker date="1485081318266" expanded="true" signature="1064:1073" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,6 +139,9 @@
         <option value="$PROJECT_DIR$/jq dom 4-1 dom节点删除之empty().html" />
         <option value="$PROJECT_DIR$/jq dom 4-2 dom节点删除之remove().html" />
         <option value="$PROJECT_DIR$/jq dom 4-4 节点删除之保留数据detach().html" />
+        <option value="$PROJECT_DIR$/jq dom 4-5 节点删除之detach()和remove()区别.html" />
+        <option value="$PROJECT_DIR$/jq dom 5-1 拷贝clone().html" />
+        <option value="$PROJECT_DIR$/jq dom 5-2 替换replaceWith()和replaceAll().html" />
       </list>
     </option>
   </component>
@@ -262,7 +303,7 @@
       <workItem from="1484899745911" duration="6932000" />
       <workItem from="1484967474940" duration="8602000" />
       <workItem from="1484983826093" duration="2227000" />
-      <workItem from="1485050192622" duration="3414000" />
+      <workItem from="1485050192622" duration="4918000" />
     </task>
     <task id="LOCAL-00001" summary="测试在webstorm上使用git">
       <created>1484719565780</created>
@@ -341,11 +382,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484996369912</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="开始学习jquery的dom操作">
+      <created>1485080487349</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1485080487349</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48205000" />
+    <option name="totallyTimeSpent" value="49709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,9 +406,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16069546" sideWeight="0.48918468" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16069546" sideWeight="0.48918468" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.50632244" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -419,27 +467,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HelloH5/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloH5/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloH5/HelloH5.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HelloH5/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -552,6 +579,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -784,9 +812,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jq dom 4-4 节点删除之保留数据detach().html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="627">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq dom 4-5 节点删除之detach()和remove()区别.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq dom 5-1 拷贝clone().html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq dom 5-2 替换replaceWith()和replaceAll().html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <marker date="1485081318266" expanded="true" signature="870:879" ph="..." />
+            <marker date="1485081318266" expanded="true" signature="1064:1073" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
