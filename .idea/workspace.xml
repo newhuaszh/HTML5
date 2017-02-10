@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="670548e9-0b8b-4bca-a6b8-8e8f359f8267" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq animation 1-1 show和hide.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq animation 1-4 toggle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq animation 2-1 slideDown下拉动画.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -49,8 +46,8 @@
       <file leaf-file-name="jq animation 2-1 slideDown下拉动画.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jq animation 2-1 slideDown下拉动画.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="298">
+              <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -302,7 +299,7 @@
       <workItem from="1485100618931" duration="1480000" />
       <workItem from="1485177285574" duration="39000" />
       <workItem from="1486695674512" duration="34000" />
-      <workItem from="1486695752958" duration="1730000" />
+      <workItem from="1486695752958" duration="1905000" />
     </task>
     <task id="LOCAL-00001" summary="测试在webstorm上使用git">
       <created>1484719565780</created>
@@ -395,11 +392,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485101398200</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="开始学习jquery的动画操作">
+      <created>1486718695514</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1486718695514</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53015000" />
+    <option name="totallyTimeSpent" value="53190000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,7 +470,8 @@
     <MESSAGE value="学习jquery的样式2017-1-20 18:39:12" />
     <MESSAGE value="jquery的样式学习结束" />
     <MESSAGE value="开始学习jquery的dom操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="开始学习jquery的dom操作" />
+    <MESSAGE value="开始学习jquery的动画操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="开始学习jquery的动画操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -822,8 +827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jq animation 2-1 slideDown下拉动画.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="298">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
           <folding />
         </state>
       </provider>
