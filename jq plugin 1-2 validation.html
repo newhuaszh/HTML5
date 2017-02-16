@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery validation 插件</title>
+    <style>
+        body {
+            font-size: 36px;
+            line-height: 1.6;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        label {
+            display: inline-block;
+            min-width: 140px;
+        }
+
+        label.error {
+            margin-left: 10px;
+            color: red;
+        }
+
+        input, button {
+            font-size: 36px;
+            line-height: 35px;
+            border: 1px solid #999;
+            min-width: 180px;
+        }
+
+        input.error {
+            border: 1px solid red;
+        }
+
+        input[type=submit], button {
+            margin-top: 20px;
+            font-size: 36px;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+<form id="demoForm">
+    <fieldset>
+        <legend>用户登录</legend>
+        <p id="info"></p>
+        <p>
+            <label for="username">用户名</label>
+            <input type="text" id="username" name="username" class="txt"/>
+        </p>
+
+        <p>
+            <label for="password">密码</label>
+            <input type="password" id="password" name="password" class="txt"/>
+        </p>
+
+        <p>
+            <label for="confirm-password">确认密码</label>
+            <input type="password" id="confirm-password" name="confirm-password"/>
+        </p>
+
+        <p>
+            <button id="check">检查表单</button>
+        </p>
+
+        <p>
+            <input type="submit" value="登录"/>
+        </p>
+    </fieldset>
+</form>
+
+<script src="jquery-3.1.1.js"></script>
+<script src="jquery-validate-1.15.0.js"></script>
+<script>
+    var validator;
+    $(document).ready(function () {
+//        $.validator.setDefaults({
+//            debug:true
+//        });
+        validator = $("#demoForm").validate({
+            rules: {
+                username: {
+                    required: {
+                        depends:function (element) {
+                            return $("#password").is(":filled");
+                        }
+                    },
+                    minlength: {
+                        param:2,
+                        depends:function (element) {
+                            return $("#password").is(":filled");
+                        }
+                    },
+                    maxlength: 10,
+//                    rangelength:[2,10],
+//                    remote: {
+//                        url: "remote.json",
+//                        type: "post",
+//                        data: {
+//                            loginTime: function () {
+//                                return +new Date;
+//                            }
+//                        }
+//                    },
+//                    number:true
+                },
+                password: {
+                    required: true,
+                    minlength: 2,
+                    maxlength: 16
+                },
+                "confirm-password": {
+                    equalTo:"#password"
+                }
+            },
+            messages: {
+                username: {
+                    required: "必须填写用户名",
+                    minlength: "用户名最小为2位",
+                    maxlength: "用户名最大为10位",
+                    rangelength:"用户名的长度是2-10位"
+                },
+                password: {
+                    required: "必须填写密码",
+                    minlength: "密码最小为2位",
+                    maxlength: "密码最大为16位"
+                }
+            },
+            submitHandler:function (form) {
+                console.log($(form).serialize());
+            },
+
+//            invalidHandler:function (event, validator) {
+//                console.log("错误数："+validator.numberOfInvalids());
+//            }
+//            ignore:"#username"
+//            groups:{
+//                login:"username password confirm-password"
+//            },
+//            errorPlacement:function (error, element) {
+//                error.insertBefore("#info");
+//            },
+//            onsubmit:true
+//            focusInvalid:false
+//            errorClass:"wrong"
+//            errorContainer:"#info",
+//            errorLabelContainer:"$info",
+//            errorElement:"li",
+//            wrapper:"ul"
+        });
+
+//        $.validator.addClassRules({
+//            txt:{
+//                required:true
+//            }
+//        });
+
+        $("#demoForm").on("invalid-form", function (event, validator) {
+            console.log("错误数："+validator.numberOfInvalids());
+        })
+
+        $("#check").click(function () {
+            alert($("#demoForm").valid() ? "填写正确" : "填写错误");
+        })
+    });
+</script>
+</body>
+</html>
