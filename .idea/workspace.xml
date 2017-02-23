@@ -26,8 +26,8 @@
       <file leaf-file-name="testVue.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testVue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="304">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -337,7 +337,7 @@
       <workItem from="1487740813352" duration="12000" />
       <workItem from="1487746976191" duration="2951000" />
       <workItem from="1487755971518" duration="601000" />
-      <workItem from="1487829155743" duration="5316000" />
+      <workItem from="1487829155743" duration="5505000" />
     </task>
     <task id="LOCAL-00001" summary="测试在webstorm上使用git">
       <created>1484719565780</created>
@@ -465,11 +465,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487835062088</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="学习vue">
+      <created>1487835079660</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1487835079660</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81109000" />
+    <option name="totallyTimeSpent" value="81298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,9 +489,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21654373" sideWeight="0.48918468" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21654373" sideWeight="0.48918468" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.50632244" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.49367756" order="1" side_tool="false" content_ui="tabs" />
@@ -538,7 +545,8 @@
     <MESSAGE value="开始学习jquery的dom操作" />
     <MESSAGE value="开始学习jquery的动画操作" />
     <MESSAGE value="完成学习jquery的验证插件validate" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成学习jquery的验证插件validate" />
+    <MESSAGE value="学习vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习vue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -911,8 +919,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testVue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="304">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding />
         </state>
       </provider>
